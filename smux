@@ -37,7 +37,7 @@ if [ "X$HOST" = "X" ]; then
     exit 1
 fi
 
-exec autossh -t $HOST "$TMUX_SESSION $NAME $COUNT"
+exec autossh -t $HOST "$TMUX_SESSION a"
 
 ###############################################################################
 ### Documentation #############################################################
