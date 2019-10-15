@@ -26,7 +26,7 @@ AUTOSSH_PORT=$(awk 'BEGIN { srand(); do r = rand()*32000; while ( r < 20000 ); p
 export AUTOSSH_POLL AUTOSSH_LOGFILE AUTOSSH_DEBUG AUTOSSH_PATH AUTOSSH_GATETIME AUTOSSH_PORT
 
 ## where does tmux-session live on the other end?
-TMUX_SESSION="~/.config/bin/tmux-session"
+TMUX_SESSION="/usr/bin/tmux"
 
 ###############################################################################
 ### main () ###################################################################
